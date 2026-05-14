@@ -117,7 +117,7 @@ The following outputs demonstrate real-time waste classification using the YOLOv
 
 ![Output](Output%202.png)
 
-![Output](Output#203.png)
+![Output](Output%203.png)
 
 ![Output](Output%204.png)
 
