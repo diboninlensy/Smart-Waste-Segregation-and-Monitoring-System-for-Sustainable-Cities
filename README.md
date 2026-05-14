@@ -1,5 +1,7 @@
 # Smart-Waste-Segregation-and-Monitoring-System-for-Sustainable-Cities
 📌 Table of Contents
+
+
 Project Description
 Components Used
 System Working
@@ -9,6 +11,8 @@ Sample Output
 Applications
 Future Scope
 Conclusion
+
+
 🌍 Project Description
 
 The Smart Waste Segregation and Monitoring System is an AI and IoT-based project designed to automate waste management and improve efficiency in smart cities and public environments.
@@ -93,6 +97,7 @@ The following outputs demonstrate real-time waste classification using the YOLOv
 
 
 🏙️ Applications
+
 Smart Cities
 Shopping Malls
 Railway Stations
@@ -104,6 +109,7 @@ Industrial Waste Management Systems
 
 
 🔮 Future Scope
+
 ☁️ Cloud-based waste monitoring dashboard
 📱 Mobile application integration
 ☀️ Solar-powered smart bin system
