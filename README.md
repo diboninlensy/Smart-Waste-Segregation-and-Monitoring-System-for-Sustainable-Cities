@@ -1,5 +1,5 @@
 # Smart-Waste-Segregation-and-Monitoring-System-for-Sustainable-Cities
-📌 Table of Contents
+#📌 Table of Contents
 
 Project Description
 
@@ -20,7 +20,7 @@ Future Scope
 Conclusion
 
 
-🌍 Project Description
+#🌍 Project Description
 
 The Smart Waste Segregation and Monitoring System is an AI and IoT-based project designed to automate waste management and improve efficiency in smart cities and public environments.
 
@@ -32,9 +32,9 @@ Another ESP32 continuously monitors the bin level using an ultrasonic sensor. Wh
 
 This system reduces manual labour, improves waste segregation accuracy, and enables real-time monitoring for sustainable waste management.
 
-🔧 Components Used
+#🔧 Components Used
 
-Hardware Components
+#Hardware Components
 
 ESP32 Microcontroller (×2)
 
@@ -48,7 +48,7 @@ Gear Motor
 
 RC Car Chassis
 
-Software & Tools
+#Software & Tools
 
 Python
 
@@ -60,7 +60,7 @@ Arduino IDE
 
 Telegram Bot API
 
-⚙️ System Working
+#⚙️ System Working
 
 Step 1 — Waste Image Capture
 
@@ -97,19 +97,19 @@ Step 6 — Telegram Alert Notification
 When the waste level exceeds the predefined threshold, the Telegram bot automatically sends an alert notification to the concerned authority for timely waste collection.
 
 
-🔄 System Flowchart
+#🔄 System Flowchart
 
 
 ![System Flowchart](Flowchart.png)
 
 
-📸 Hardware Setup
+#📸 Hardware Setup
 
 
 ![Hardware Setup](HardwareSetup.png)
 
 
-🖥️ Output
+#🖥️ Output
 
 The following outputs demonstrate real-time waste classification using the YOLOv8 model and Telegram alert notifications generated when the waste bin reaches the threshold level.
 
@@ -122,7 +122,7 @@ The following outputs demonstrate real-time waste classification using the YOLOv
 ![Output](Output4.png)
 
 
-🏙️ Applications
+#🏙️ Applications
 
 Smart Cities
 
@@ -134,7 +134,7 @@ Airports
 
 Hospitals
 
-🔮 Future Scope
+#🔮 Future Scope
 
 ☁️ Cloud-based waste monitoring dashboard
 
@@ -146,6 +146,6 @@ Hospitals
 
 📊 Waste analytics and reporting system
 
-🏁 Conclusion
+#🏁 Conclusion
 
 The Smart Waste Segregation and Monitoring System combines Artificial Intelligence, IoT, and automation technologies to improve waste management efficiency. By integrating YOLOv8-based waste classification, ESP32-controlled RC car movement, ultrasonic monitoring, and Telegram alert notifications, the system provides an intelligent, scalable, and low-cost solution for sustainable waste management in smart cities and public environments.
