@@ -1,0 +1,1 @@
+# Smart-Waste-Segregation-and-Monitoring-System-for-Sustainable-Cities
