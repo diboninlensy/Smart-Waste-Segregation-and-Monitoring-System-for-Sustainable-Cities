@@ -1,15 +1,22 @@
 # Smart-Waste-Segregation-and-Monitoring-System-for-Sustainable-Cities
 📌 Table of Contents
 
-
 Project Description
+
 Components Used
+
 System Working
+
 System Flowchart
+
 Hardware Setup
-Sample Output
+
+Output
+
 Applications
+
 Future Scope
+
 Conclusion
 
 
@@ -26,20 +33,35 @@ Another ESP32 continuously monitors the bin level using an ultrasonic sensor. Wh
 This system reduces manual labour, improves waste segregation accuracy, and enables real-time monitoring for sustainable waste management.
 
 🔧 Components Used
+
 Hardware Components
+
 ESP32 Microcontroller (×2)
+
 Mobile Webcam
+
 HC-SR04 Ultrasonic Sensor
+
 L298N Motor Driver
+
 Gear Motor
+
 RC Car Chassis
+
 Software & Tools
+
 Python
+
 YOLOv8
+
 OpenCV
+
 Arduino IDE
+
 Telegram Bot API
+
 ⚙️ System Working
+
 Step 1 — Waste Image Capture
 
 A mobile webcam continuously captures images of the waste item placed in front of the webcam.
@@ -51,6 +73,7 @@ The captured image is processed using the YOLOv8 deep learning model. The waste 
 🟢 Biodegradable Waste
 🔵 Non-Biodegradable Waste
 🔴 E-Waste
+
 Step 3 — Sending Classification Result to ESP32
 
 After classification, the result is transmitted to ESP32 #1 via WiFi for controlling the RC car movement.
@@ -66,6 +89,7 @@ Based on the detected waste category, the RC car moves automatically toward the 
 The servo mechanism then directs the waste into the appropriate waste bin automatically.
 
 Step 5 — Bin Level Monitoring
+
 ESP32 #2 continuously monitors the waste level inside the bin using the HC-SR04 ultrasonic sensor.
 
 Step 6 — Telegram Alert Notification
@@ -86,7 +110,9 @@ When the waste level exceeds the predefined threshold, the Telegram bot automati
 
 
 🖥️ Output
+
 The following outputs demonstrate real-time waste classification using the YOLOv8 model and Telegram alert notifications generated when the waste bin reaches the threshold level.
+
 ![Output](Output1.png)
 
 ![Output](Output2.png)
@@ -99,25 +125,26 @@ The following outputs demonstrate real-time waste classification using the YOLOv
 🏙️ Applications
 
 Smart Cities
-Shopping Malls
-Railway Stations
-Airports
-Educational Institutions
-Hospitals
-Public Parks and Public Areas
-Industrial Waste Management Systems
 
+Shopping Malls
+
+Railway Stations
+
+Airports
+
+Hospitals
 
 🔮 Future Scope
 
 ☁️ Cloud-based waste monitoring dashboard
-📱 Mobile application integration
-☀️ Solar-powered smart bin system
-🗺️ GPS tracking for waste collection vehicles
-📊 Waste analytics and reporting system
-🧠 Advanced AI-based waste classification
-🖥️ Multi-bin monitoring dashboard
 
+📱 Mobile application integration
+
+☀️ Solar-powered smart bin system
+
+🗺️ GPS tracking for waste collection vehicles
+
+📊 Waste analytics and reporting system
 
 🏁 Conclusion
 
