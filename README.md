@@ -106,20 +106,20 @@ When the waste level exceeds the predefined threshold, the Telegram bot automati
 # 📸 Hardware Setup
 
 
-![Hardware Setup](HardwareSetup.png)
+![Hardware Setup](Hardware%20Setup.png)
 
 
 # 🖥️ Output
 
 The following outputs demonstrate real-time waste classification using the YOLOv8 model and Telegram alert notifications generated when the waste bin reaches the threshold level.
 
-![Output](Output1.png)
+![Output](Output%201.png)
 
-![Output](Output2.png)
+![Output](Output%202.png)
 
-![Output](Output3.png)
+![Output](Output#203.png)
 
-![Output](Output4.png)
+![Output](Output%204.png)
 
 
 # 🏙️ Applications
