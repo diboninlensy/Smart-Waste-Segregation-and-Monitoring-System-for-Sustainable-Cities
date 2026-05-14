@@ -67,19 +67,31 @@ ESP32 #2 continuously monitors the waste level inside the bin using the HC-SR04 
 Step 6 — Telegram Alert Notification
 
 When the waste level exceeds the predefined threshold, the Telegram bot automatically sends an alert notification to the concerned authority for timely waste collection.
+
+
 🔄 System Flowchart
+
+
 ![System Flowchart](Flowchart.png)
+
+
 📸 Hardware Setup
-![Hardware Setup](Hardware Setup.png)
+
+
+![Hardware Setup](HardwareSetup.png)
+
+
 🖥️ Output
 The following outputs demonstrate real-time waste classification using the YOLOv8 model and Telegram alert notifications generated when the waste bin reaches the threshold level.
-![Output](Output 1.png)
+![Output](Output1.png)
 
-![Output](Output 2.png)
+![Output](Output2.png)
 
-![Output](Output 3.png)
+![Output](Output3.png)
 
-![Output](Output 4.png)
+![Output](Output4.png)
+
+
 🏙️ Applications
 Smart Cities
 Shopping Malls
@@ -89,6 +101,8 @@ Educational Institutions
 Hospitals
 Public Parks and Public Areas
 Industrial Waste Management Systems
+
+
 🔮 Future Scope
 ☁️ Cloud-based waste monitoring dashboard
 📱 Mobile application integration
@@ -97,6 +111,8 @@ Industrial Waste Management Systems
 📊 Waste analytics and reporting system
 🧠 Advanced AI-based waste classification
 🖥️ Multi-bin monitoring dashboard
+
+
 🏁 Conclusion
 
 The Smart Waste Segregation and Monitoring System combines Artificial Intelligence, IoT, and automation technologies to improve waste management efficiency. By integrating YOLOv8-based waste classification, ESP32-controlled RC car movement, ultrasonic monitoring, and Telegram alert notifications, the system provides an intelligent, scalable, and low-cost solution for sustainable waste management in smart cities and public environments.
