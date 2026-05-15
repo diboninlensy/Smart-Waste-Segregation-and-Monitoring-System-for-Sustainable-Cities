@@ -71,7 +71,9 @@ Step 2 — AI-Based Waste Classification
 The captured image is processed using the YOLOv8 deep learning model. The waste is classified into:
 
 🟢 Biodegradable Waste
+
 🔵 Non-Biodegradable Waste
+
 🔴 E-Waste
 
 Step 3 — Sending Classification Result to ESP32
@@ -83,7 +85,9 @@ Step 4 — RC Car Movement and Waste Segregation
 Based on the detected waste category, the RC car moves automatically toward the corresponding bin:
 
 🟢 Biodegradable Waste → RC car remains in the centre/default position
+
 🔵 Non-Biodegradable Waste → RC car moves backward
+
 🔴 E-Waste → RC car moves forward
 
 The servo mechanism then directs the waste into the appropriate waste bin automatically.
