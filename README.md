@@ -1,4 +1,4 @@
-# Smart-Waste-Segregation-and-Monitoring-System-for-Sustainable-Cities
+# Smart Waste Segregation and Monitoring System for Sustainable Cities
 # 📌 Table of Contents
 
 Project Description
