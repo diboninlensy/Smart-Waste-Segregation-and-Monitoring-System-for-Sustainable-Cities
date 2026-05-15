@@ -138,8 +138,9 @@ The following outputs demonstrate real-time waste classification using the YOLOv
 3.Connect the ESP32 modules and mobile webcam to WiFi.
 
 4.Run the YOLO detection script:
-
+```bash
 python detect.py
+```
 
 5.Open the Flask server in a browser to view live waste detection.
 
