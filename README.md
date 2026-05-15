@@ -13,6 +13,8 @@ Hardware Setup
 
 Output
 
+How to Run
+
 Applications
 
 Future Scope
@@ -125,6 +127,21 @@ The following outputs demonstrate real-time waste classification using the YOLOv
 
 ![Output](Output%204.png)
 
+# 🚀 How to Run
+
+1. Install the required Python libraries:
+   ```bash
+   pip install ultralytics opencv-python flask requests
+   
+2.Upload the ESP32 codes using Arduino IDE.
+
+3.Connect the ESP32 modules and mobile webcam to WiFi.
+
+4.Run the YOLO detection script:
+
+python detect.py
+
+5.Open the Flask server in a browser to view live waste detection.
 
 # 🏙️ Applications
 
